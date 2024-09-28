@@ -59,7 +59,6 @@ footer{
     display:flex;
     flex-direction: column;
     width: 100%;
-    order: initial;
 }
 
 #mobile-version header{
@@ -92,34 +91,45 @@ footer{
     width: 100%;
 }
 
-#mobile-version .my_table{
-    order: 1;
-}
-
-#mobile-version .hyperlinks{
-    order: 2;
-}
-
 @media only screen and (min-width: 800px) {
-    #mobile-version {
-        flex-direction: row;
-        width: auto;
+
+    #mobile-version{
+        display:flex;
+        flex-direction: column;
     }
 
     #mobile-version header{
-        background-color: saddlebrown;
-        height: 120px;
+        order: 1;
+
+    }
+
+    #mobile-version .hyperlinks{
+        order: 4;
+    }
+
+    #mobile-version .plane{
+        order: 2;
+    }
+
+    #mobile-version .my_table{
+        order: 3;
+    }
+
+    #mobile-version .forma{
+        order: 5;
+    }
+
+    #mobile-version footer{
+        order: 6;
     }
 
     #mobile-version aside{
         background-color: saddlebrown;
         flex: 1;
-        order: 2;
     }
 
     #mobile-version main{
         flex: 4;
-        order: 1;
     }
 
     #mobile-version nav{
@@ -144,4 +154,5 @@ footer{
         background-color: brown;
         padding: 10px;
     }
+
 }
