@@ -10,8 +10,6 @@ body{
     margin: 0px;
 }
 
-
-
 h1{
     margin: 0;
     margin-top: 20px;
@@ -22,8 +20,6 @@ a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 th{
     background-color: silver;
@@ -43,6 +39,24 @@ tr:nth-child(even){
     background-color: white;
 }
 
+header{
+    background-color: none;
+    width: 100%;
+}
+
+main{
+    background-color: saddlebrown;
+}
+
+aside{
+    width:100%;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+}
+
 footer{
     width: 100%;
     height: 120px;
@@ -55,96 +69,89 @@ footer{
     text-align: center;
 }
 
+/* Mobile version */
 #mobile-version{
     display:flex;
     flex-direction: column;
     width: 100%;
 }
 
-#mobile-version header{
-    background-color: none;
-    width: 100%;
-}
-
-#mobile-version main{
-    background-color: saddlebrown;
-}
-
-#mobile-version aside{
-    width:100%;
-}
-
-#mobile-version .pic{
+.pic{
     width: 75%;
     height: 75%;
 }
 
-#mobile-version table{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5px;
-    text-align: center;
-    background-color: brown;
-    padding: 5px;
+.plane{
+    order: 1;
 }
 
-#mobile-version footer{
-    width: 100%;
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    order: 2;
+}
+
+ul{
+    order: 3;
+}
+
+.air{
+    order: 5;
+}
+
+ol{
+    order: 4;
+}
+
+.forma{
+    order: 6;
 }
 
 @media only screen and (min-width: 800px) {
 
-    #mobile-version{
-        display:flex;
-        flex-direction: column;
-    }
-
-    #mobile-version header{
-        order: 1;
-
-    }
-
-    #mobile-version .hyperlinks{
-        order: 4;
-    }
-
-    #mobile-version .plane{
-        order: 2;
-    }
-
-    #mobile-version .my_table{
-        order: 3;
-    }
-
-    #mobile-version .forma{
-        order: 5;
-    }
-
-    #mobile-version footer{
-        order: 6;
-    }
-
-    #mobile-version aside{
+    header{
+        display: flex;
+        flex-direction: row;
         background-color: saddlebrown;
+    }
+
+    aside{
         flex: 1;
     }
 
-    #mobile-version main{
+    main{
         flex: 4;
     }
 
-    #mobile-version nav{
+    nav{
+        flex-direction: row;
         max-width: fit-content;
         margin: 0 auto;
         background-color:chocolate;
         margin-top: 10px;
     }
 
-    #mobile-version .pic{
+    #mobile-version .content{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .pic{
         width: 800px;
         height: 600px;
     }
-
-    #mobile-version table{
+    
+    .plane{
+        order: 1;
+    }
+    
+    table{
         font-family: Arial, Helvetica, sans-serif;
         width: 300px;
         height: 100px;
@@ -153,6 +160,23 @@ footer{
         text-align: center;
         background-color: brown;
         padding: 10px;
+        order: 5;
+    }
+    
+    ul{
+        order: 2;
+    }
+    
+    .air{
+        order: 3;
+    }
+    
+    ol{
+        order: 4;
+    }
+    
+    .forma{
+        order: 6;
     }
 
 }
