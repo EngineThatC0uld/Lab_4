@@ -79,12 +79,9 @@ footer{
     order: 1;
 }
 
-#mobile-version .pic{
-    width: fit-content;
-}
-
 #mobile-version aside{
     width:100%;
+    margin-top: 30px;
     order: 2;
 }
 
