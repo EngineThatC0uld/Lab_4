@@ -66,9 +66,10 @@ footer{
 #mobile-version{
     display:flex;
     flex-direction: column;
+    width: 100%;
 }
 
-#mobile-version .test{
+#mobile-version main{
     width: 100%;
     order: 1;
 }
@@ -88,7 +89,7 @@ footer{
         order: 2;
     }
 
-    #mobile-version .test{
+    #mobile-version main{
         flex: 4;
         order: 1;
     }
@@ -98,4 +99,5 @@ footer{
         margin: 0 auto;
         background-color:chocolate;
     }
+
 }
