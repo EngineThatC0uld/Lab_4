@@ -71,8 +71,8 @@ footer{
 }
 
 #mobile-version .my_img{
-    width:min-content;
-    height:min-content;
+    width:500; 
+    height:300;
 }
 
 #mobile-version table{
