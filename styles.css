@@ -80,8 +80,8 @@ footer{
 }
 
 #mobile-version .my_img{
-    width: 100px;
-    height: 100px;
+    width:fit-content;
+    height:fit-content;
 }
 
 @media only screen and (min-width: 800px) {
