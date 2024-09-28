@@ -66,7 +66,6 @@ footer{
 
 #mobile-version header{
     background-color: none;
-    margin-bottom: 30px;
 }
 
 #mobile-version main{
@@ -77,8 +76,12 @@ footer{
 
 #mobile-version aside{
     width:100%;
-    margin-top: 30px;
     order: 2;
+}
+
+#mobile-version .my_img{
+    width: 100px;
+    height: 100px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -93,6 +96,7 @@ footer{
     }
 
     #mobile-version aside{
+        background-color: saddlebrown;
         flex: 1;
         order: 2;
     }
@@ -106,6 +110,11 @@ footer{
         max-width: fit-content;
         margin: 0 auto;
         background-color:chocolate;
+        margin-top: 10px;
     }
 
+    #mobile-version .my_img{
+        width: 800px;
+        height: 600px;
+    }
 }
