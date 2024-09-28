@@ -28,6 +28,7 @@ a{
 th{
     background-color: silver;
     padding: 5px;
+    width: fit-content;
     font-size:medium;
 }
 
