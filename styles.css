@@ -86,6 +86,12 @@ footer{
         flex-direction: row;
         width: auto;
     }
+
+    #mobile-version header{
+        background-color: saddlebrown;
+        height: 120px;
+    }
+
     #mobile-version aside{
         flex: 1;
         order: 2;
@@ -102,7 +108,4 @@ footer{
         background-color:chocolate;
     }
 
-    #mobile-version header{
-        background-color: saddlebrown;
-    }
 }
