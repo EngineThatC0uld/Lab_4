@@ -87,11 +87,14 @@ footer{
     text-align: center;
     background-color: brown;
     padding: 5px;
-    order: 1;
 }
 
 #mobile-version footer{
     width: 100%;
+}
+
+#mobile-version .my_table{
+    order: 1;
 }
 
 #mobile-version .hyperlinks{
