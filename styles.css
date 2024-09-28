@@ -41,6 +41,7 @@ tr:nth-child(even){
 
 header{
     background-color: none;
+    margin: 0;
     width: 100%;
 }
 
@@ -55,6 +56,7 @@ aside{
 nav{
     display:flex;
     flex-direction: column;
+    margin:0;
 }
 
 footer{
