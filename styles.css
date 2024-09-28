@@ -40,8 +40,10 @@ tr:nth-child(even){
 }
 
 header{
+    display: flex;
+    flex-direction: column;
     background-color: none;
-    margin: 0;
+    margin: 0px;
     width: 100%;
 }
 
@@ -56,7 +58,7 @@ aside{
 nav{
     display:flex;
     flex-direction: column;
-    margin:0;
+    margin:0px;
 }
 
 footer{
