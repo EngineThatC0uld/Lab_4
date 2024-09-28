@@ -28,8 +28,12 @@ a{
 th{
     background-color: silver;
     padding: 5px;
-    width: fit-content;
+    width: 10px;
     font-size:medium;
+}
+
+td{
+    width: 10px;
 }
 
 tr:nth-child(odd){
