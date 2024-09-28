@@ -11,19 +11,14 @@ body{
 
 header{
     background-color:saddlebrown;
-    width: 100%;
     height: 120px;
 }
 
-nav{
-    padding-top: 20px;
-    margin-left: 140px;
-    max-width: 400px;
-}
 h1{
     margin: 0;
-    margin-top: 5px;
+    margin-top: 20px;
 }
+
 a{
     line-height: 120%;
     text-decoration: none;
@@ -66,4 +61,32 @@ footer{
     font-size: larger;
     font-weight: bold;
     text-align: center;
+}
+
+#mobile-version{
+    display:flex;
+    flex-direction: column;
+}
+
+#mobile-version .test{
+    width: 100%;
+}
+
+#mobile-version nav{
+    width:100%;
+}
+
+@media screen and (min-width: 800px) {
+    #mobile-version {
+        flex-direction: row;
+        width: auto;
+    }
+    #mobile-version nav{
+        background-color:chocolate;
+        flex: 1;
+    }
+
+    #mobile-version .test{
+        flex: 2;
+    }
 }
