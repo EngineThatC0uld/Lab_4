@@ -69,9 +69,18 @@ footer{
     width: 100%;
 }
 
+#mobile-version header{
+    background-color: none;
+}
+
 #mobile-version main{
+    background-color: saddlebrown;
     width: 100%;
     order: 1;
+}
+
+#mobile-version .pic{
+    width: fit-content;
 }
 
 #mobile-version aside{
