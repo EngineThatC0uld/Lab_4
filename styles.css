@@ -70,23 +70,32 @@ footer{
 
 #mobile-version .test{
     width: 100%;
+    order: 1;
 }
 
-#mobile-version nav{
+#mobile-version aside{
     width:100%;
+    order: 2;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     #mobile-version {
         flex-direction: row;
         width: auto;
     }
-    #mobile-version nav{
-        background-color:chocolate;
+    #mobile-version aside{
         flex: 1;
+        order: 2;
     }
 
     #mobile-version .test{
-        flex: 2;
+        flex: 4;
+        order: 1;
+    }
+
+    #mobile-version nav{
+        max-width: fit-content;
+        margin: 0 auto;
+        background-color:chocolate;
     }
 }
