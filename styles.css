@@ -64,6 +64,7 @@ footer{
 #mobile-version header{
     background-color: none;
     width: 100%;
+    order: 1;
 }
 
 #mobile-version main{
@@ -94,11 +95,11 @@ footer{
 }
 
 #mobile-version .my_table{
-    order: 1;
+    order: 2;
 }
 
 #mobile-version .hyperlinks{
-    order: 2;
+    order: 3;
 }
 
 @media only screen and (min-width: 800px) {
