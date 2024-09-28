@@ -57,6 +57,7 @@ footer{
 
 #mobile-version header{
     background-color: none;
+    width: 100%;
 }
 
 #mobile-version main{
@@ -71,8 +72,8 @@ footer{
 }
 
 #mobile-version .my_img{
-    width:30%; 
-    height:30%;
+    width:50%; 
+    height:50%;
 }
 
 #mobile-version table{
@@ -84,6 +85,10 @@ footer{
     text-align: center;
     background-color: brown;
     padding: 10px;
+}
+
+#mobile-version footer{
+    width: 100%;
 }
 
 @media only screen and (min-width: 800px) {
