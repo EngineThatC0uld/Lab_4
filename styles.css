@@ -45,20 +45,11 @@ header{
     background-color: none;
     margin: 0px;
     width: 100%;
+    background-color: saddlebrown;
 }
 
 main{
     background-color: saddlebrown;
-}
-
-aside{
-    width:100%;
-}
-
-nav{
-    display:flex;
-    flex-direction: column;
-    margin:0px;
 }
 
 footer{
@@ -73,20 +64,9 @@ footer{
     text-align: center;
 }
 
-/* Mobile version */
-#mobile-version{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-}
-
 .pic{
-    width: 75%;
-    height: 75%;
-}
-
-.plane{
-    order: 1;
+    width: 800px;
+    height: 600px;
 }
 
 table{
@@ -100,6 +80,29 @@ table{
     padding: 10px;
     order: 2;
 }
+
+.content{
+    background-color: wheat;
+}
+
+nav{
+    background-color: chocolate;
+}
+
+/* Mobile version */
+/* #mobile-version{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.plane{
+    order: 1;
+}
+
+
 
 ul{
     order: 3;
@@ -115,9 +118,9 @@ ol{
 
 .forma{
     order: 6;
-}
+} */
 
-@media only screen and (min-width: 800px) {
+/* @media only screen and (min-width: 800px) {
 
     header{
         display: flex;
@@ -146,10 +149,7 @@ ol{
         flex-direction: column;
     }
 
-    .pic{
-        width: 800px;
-        height: 600px;
-    }
+
     
     .plane{
         order: 1;
@@ -183,4 +183,4 @@ ol{
         order: 6;
     }
 
-}
+} */
